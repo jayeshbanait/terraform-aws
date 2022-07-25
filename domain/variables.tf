@@ -1,13 +1,13 @@
 variable "environment" {
-  default = test
+  default = "test"
   }
 
 variable "owner" {
-  default = jayesh
+  default = "jayesh"
    }
 
 variable "key_name"{
-   default = infra
+   default = "infra"
   }
 
 
