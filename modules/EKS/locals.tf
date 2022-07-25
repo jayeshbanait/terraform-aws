@@ -11,3 +11,5 @@ locals {
     public_allow_list = ["0.0.0.0/0"]
 
     kube_service_ipv4 = "172.16.20.0/22"
+    
+}
