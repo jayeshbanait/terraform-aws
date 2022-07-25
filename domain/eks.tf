@@ -1,6 +1,6 @@
 module "eks_cluster" {
   source                  = "../modules/EKS"
-  ami                     = ""
+  ami                     = "ami-02d1e544b84bf7502"
   app_name                = "${var.app_name}"
   environment             = "${var.environment}"
   region                  = "${var.region}"
