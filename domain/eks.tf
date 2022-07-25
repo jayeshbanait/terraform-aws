@@ -23,4 +23,5 @@ module "eks_cluster" {
   asg_min_size            = "${var.environment == "prod" ? "2" : "1" }"
   asg_desired_size        = "${var.environment == "prod" ? "2" : "1" }"
   volume_size             = "20"
+  user_data               = "${base64encode(data.template_file.eks.rendered)}"
 }
