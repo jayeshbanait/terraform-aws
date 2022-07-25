@@ -3,7 +3,7 @@ variable "environment" {
   }
 
 variable "owner" {
-  default = 
+  default = jayesh
    }
 
 variable "key_name"{
